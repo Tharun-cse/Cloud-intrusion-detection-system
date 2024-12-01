@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2023-04-09T16:44:04.277Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3dsyAAvGFpxmjsmGA5-5" version="21.1.2" type="google">
+  <diagram name="Page-1" id="_WG1Nm0SwyhMxxbb_HJj">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="600" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="7-yj7-nF2kryDtaxleZK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="NpNdgXtI5rrLoGykvWlv-3" target="7-yj7-nF2kryDtaxleZK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-3" value="Collected Data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-yj7-nF2kryDtaxleZK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="NpNdgXtI5rrLoGykvWlv-4" target="7-yj7-nF2kryDtaxleZK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-4" value="CICIDS2017 Dataset" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="500" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-10" value="Data Preprocessing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="285" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NpNdgXtI5rrLoGykvWlv-12" target="NpNdgXtI5rrLoGykvWlv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-12" value="Fill nan values and remove infinite values" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NpNdgXtI5rrLoGykvWlv-13" target="NpNdgXtI5rrLoGykvWlv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-13" value="Label Numeralisation(Label Encoder)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NpNdgXtI5rrLoGykvWlv-14" target="NpNdgXtI5rrLoGykvWlv-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-14" value="split the features and targets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="534" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NpNdgXtI5rrLoGykvWlv-15" target="NpNdgXtI5rrLoGykvWlv-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-15" value="Normalise the data using MinMax scalar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="NpNdgXtI5rrLoGykvWlv-16" target="NpNdgXtI5rrLoGykvWlv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-16" value="split the data into train and test" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="294" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NpNdgXtI5rrLoGykvWlv-25" value="Train data and test data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-yj7-nF2kryDtaxleZK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.588;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="7-yj7-nF2kryDtaxleZK-2" target="NpNdgXtI5rrLoGykvWlv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-yj7-nF2kryDtaxleZK-2" value="Merge Two Datasets" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontStyle=1;strokeWidth=3;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="394" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

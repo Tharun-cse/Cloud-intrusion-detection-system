@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload and Prediction</title>
+    <style>
+      /* Center all elements */
+      /* Center all elements */
+        body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
+        background: linear-gradient(to bottom right, #6d4c41, #055a8c);
+        }
+
+        form {
+        display: inline-block;
+        text-align: left;
+        margin: 5px;
+        }
+
+        /* style the buttons */
+        input[type="file"],
+        input[type="submit"] {
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+        background-color: #c6c2ab; /* dark green */
+        }
+
+        /* Change the button color on active/focus */
+        input[type="file"]:active,
+        input[type="submit"]:active,
+        input[type="file"]:focus,
+        input[type="submit"]:focus {
+        background-color: #c6c2ab; /* dark green */
+        outline: none;
+        }
+
+        /* Style the file input label */
+        label[for="file"] {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        }
+
+        /* Add a border to the output textarea on focus */
+        textarea:focus {
+        outline: none;
+        border-color: #055a8c;
+        }
+
+        /* style the output textarea */
+        textarea {
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        width: 70%;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+        }
+
+        .text {
+          text-align: center;
+          color: #1abd8c;
+        }
+
+        .headi {
+          display: block;
+          font-size: 30px;
+          font-weight: bold;
+          margin-bottom: 10px;
+          color: #c8dcdc;
+        }
+
+    </style>
+</head>
+<body>
+    <title>FYP</title>
+    <h1><div class="headi">INTRUSION DETECTION SYSTEM</div></h1>
+    <form method="post" enctype="multipart/form-data">
+        <label for="file"><b><div class="text">- TEAM G9</div></b></label><br>
+        <input type="file" name="file" id="file"><br>
+        <input type="submit" name="upload" value="Upload"><br>
+    </form>
+    <form method="post">
+        <input type="submit" name="predict" value="Predict"><br>
+    </form>
+    <br>
+    <textarea id="output-text" rows="10" cols="50">{{ result }}</textarea>
+</body>
+</html>

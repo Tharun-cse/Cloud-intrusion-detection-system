@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Upload CSV file</title>
+  </head>
+  <body>
+    <h1>Upload CSV file</h1>
+    <form id="upload-form" method="post" enctype="multipart/form-data" action="">
+      <input type="file" id="csv-file" name="csv-file" accept=".csv">
+      <button type="submit" id="upload-button" disabled>Upload</button>
+    </form>
+
+    <script>
+      document.getElementById('csv-file').addEventListener('change', function() {
+        var file_path = this.value;
+        document.getElementById('upload-form').action = '/upload';
+        document.getElementById('upload-form').innerHTML += '<input type="hidden" name="file_path" value="' + file_path + '">';
+        document.getElementById('upload-button').disabled = false;
+      });
+    </script>
+  </body>
+</html>
